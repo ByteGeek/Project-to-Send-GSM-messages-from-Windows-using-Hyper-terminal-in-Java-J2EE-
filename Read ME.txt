@@ -1,0 +1,13 @@
+compile the  "App_Server.java"
+this is the code for creating two threads 1 for sending,reading messages and sleeping for 1 sec
+
+but while receiving the messages from the sim card its throwing some Exceptions.
+
+the file "sending_data.txt" contains the data in the format "phone_no,text_message" line by line to send multiple messages
+
+the file "received_data.txt" will be generated automatically if there are some msgs in the sim
+
+BUGS :(  
+: if u want to send multiple messages( except the very 1st message) and while reading the sim this code is facing some exceptions 
+App_server.java where u need to optimize the code ...
+thank u..
